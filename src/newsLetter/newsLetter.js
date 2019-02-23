@@ -4,8 +4,10 @@ import * as firebase from 'firebase';
 
 class NewsLetter extends Component {
   render() {
+
     return (
-      <a> newsLetter </a>
+      <a> NewsLetter1 </a>
+
     );
   }
 }
