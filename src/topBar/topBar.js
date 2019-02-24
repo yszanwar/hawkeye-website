@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './topBar.css'
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
@@ -10,10 +11,11 @@ import logo from './hawk-bird-animal-shape.svg';
 import blue from '@material-ui/core/colors/blue';
 import Git_icon from './Github_logo.svg';
 import Button from '@material-ui/core/Button';
+import { Grid } from '@material-ui/core';
 const color = blue[800];
 const styles = {
   root: {
-    flexGrow: 2,
+    flexGrow: 1,
   },
   
 };
@@ -28,7 +30,7 @@ const styles1 = theme => ({
     marginLeft: theme.spacing.unit,
   },
   iconSmall: {
-    fontSize: 25,
+    fontSize: 40,
   },
 });
 
@@ -40,19 +42,48 @@ function SimpleAppBar(props) {
       <AppBar position="static" color="default">
         
         <Toolbar> 
-      
+      <Grid
+        container
+        direction="row"
+        justify="space-between"
+        alignItems="center"
+      >
+        <div>
+        <Grid
+        container
+        direction="row"
+        justify="space-between"
+        alignItems="center"
+      >
         <img src={logo} id="logo"  alt="logo" />
                   
-          <h4 id="main-title">
-            <b></b> Project HawkEye
-          </h4>
+          <a id="main-title">
+           Project HawkEye
+          </a>
+          </Grid>
+          </div>
+    
 
+         <div>
+         <Button id="About_Button" className={classes.button} >
+          About
+        </Button>
+        <Button id="Install_Button" className={classes.button} >
+          Install
+        </Button>
+       
+        <Button id="Newsletter_Button" className={classes.button} >
+          Newsletter
+        </Button>
+        <Button id="Contact_Button" className={classes.button} >
+          Contact
+        </Button>
 
-          <Button variant="contained" color="secondary" className={classes.button}>
-        
-        <img src={Git_icon} alt="Git_hub" height="30" width="30" />
-      </Button>
-        
+       <Button id="Git_Button" className={classes.button} href="https://github.com/projecthawkeye">
+        <img src={Git_icon} alt="Git_hub" height="45" width="45" />
+        </Button>
+        </div>
+        </Grid>
         </Toolbar>
       </AppBar>
     </div>
