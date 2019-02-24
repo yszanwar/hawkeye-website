@@ -4,7 +4,20 @@ import './install.css';
 class install extends Component {
   render() {
     return (
-      <a> install </a>
+      <div id="install-sec"> 
+      <div>
+        <a>Install</a>
+        <div>
+          <div id="code">
+          <code>pip install hawkeyelib</code>
+          </div>
+          <div id="button">
+
+          </div>
+        </div>
+      </div>
+      </div>
+
     );
   }
 }

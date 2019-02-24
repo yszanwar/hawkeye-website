@@ -1,0 +1,13 @@
+.install-sec{
+background-color: #ffffff;
+padding: 30px;
+color: #000000;
+}
+.code{
+   float: left; 
+   width: fit-content;
+}
+.button{
+    float: right;
+    width: fit-content;
+}
