@@ -16,8 +16,8 @@ class MainWindow extends Component {
 
     return (
       <div id="net">
-      <h1 id="title">Let's Grow Together</h1>
-      <h2 id="sub-title"> HawkEye is a Open Source Library in Python for Wealth Management</h2>
+      <h1 id="title1" align="center">Let's Grow Together</h1>
+      <h2 id="sub-title" align="center"> HawkEye is a Open Source Library in Python for Wealth Management</h2>
        </div>
     );
   }
