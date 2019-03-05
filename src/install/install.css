@@ -3,26 +3,28 @@
 	background-color:#190061;
 }
 
-#content{
-	color: white;
-  	padding :60px 300px;
+#con{
   	font-family:'Roboto';
   	font-weight:100;
   	font-size: 20px;
   	letter-spacing: 1px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		color: white;
+		text-align: center;
 }
 
 #title{
   	font-family:'Roboto';
-  	color:#3500d3;
-    letter-spacing: 5px;
+  	color:#ffffff;
+    letter-spacing: 1px;
   	padding-top:20px;
   	padding-bottom: 20px;
-  	font-size:70px;
+  	font-size:50px;
   	font-weight:200;
   	background-color: black;
-  	width:60%;
-    margin:auto;
 
 }
 #codeblock{
@@ -31,13 +33,17 @@
 	font-size: 20px;
 }
 	#code{
-			float: left; 
+			float: left;
 			color: white;
-			padding-right: 10px;
+			font-size: 25px;
+
 	 }
 	 #button{
-			 height: 20px;
+			 height: 40px;
+			 background-color: transparent;
+			 color: white;
 	 }
 	#Copyclip{
 			height: 20px;
+			color: white;
 	}
