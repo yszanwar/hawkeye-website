@@ -21,11 +21,7 @@ class install extends Component {
     return (
       	<div id = "install">
     		<div id ="title" align="center">Install</div>
-    		<div id ="con">There are many variations of
-    			passages of Lorem Ipsum available, but the majority
-    			have suffered alteration in some form, by injected
-    		  	humour, or randomised words which dont look even
-    		   	slightly believable.
+    		<div id ="con"> Download HawkEye Library using the following pip command: 
     		</div>
         <Grid
         container
@@ -38,11 +34,8 @@ class install extends Component {
             <img src={Copyclip} id="Copyclip"></img>
             </Button>
         </Grid>
-    		<div id ="con">There are many variations of
-    			passages of Lorem Ipsum available, but the majority
-    			have suffered alteration in some form, by injected
-    		  	humour, or randomised words which dont look even
-    		   	slightly believable.
+    		<div id ="con">Note: The library is built for Python 3 and you many face issues if using on Python 2.
+    	
     		</div>
     	</div>
     );

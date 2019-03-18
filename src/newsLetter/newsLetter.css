@@ -1,0 +1,36 @@
+#main{
+    background: linear-gradient(262deg, #0f003b, #de0064);
+    background-size: 400% 400%;
+    
+    -webkit-animation: AnimationName 40s ease infinite;
+    -moz-animation: AnimationName 40s ease infinite;
+    animation: AnimationName 40s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:46% 0%}
+        50%{background-position:55% 100%}
+        100%{background-position:46% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:46% 0%}
+        50%{background-position:55% 100%}
+        100%{background-position:46% 0%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:46% 0%}
+        50%{background-position:55% 100%}
+        100%{background-position:46% 0%}
+    }
+
+    #con3{
+        font-family:'Roboto';
+        font-weight:100;
+        font-size: 20px;
+        letter-spacing: 1px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 30px;
+          padding-bottom: 20px;
+          color: #190061;
+          text-align: center;
+  }
