@@ -1,36 +1,57 @@
 #main{
-    background: linear-gradient(262deg, #0f003b, #de0064);
+    background: #190061;
     background-size: 400% 400%;
-    
-    -webkit-animation: AnimationName 40s ease infinite;
-    -moz-animation: AnimationName 40s ease infinite;
-    animation: AnimationName 40s ease infinite;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
 }
-    @-webkit-keyframes AnimationName {
-        0%{background-position:46% 0%}
-        50%{background-position:55% 100%}
-        100%{background-position:46% 0%}
-    }
-    @-moz-keyframes AnimationName {
-        0%{background-position:46% 0%}
-        50%{background-position:55% 100%}
-        100%{background-position:46% 0%}
-    }
-    @keyframes AnimationName { 
-        0%{background-position:46% 0%}
-        50%{background-position:55% 100%}
-        100%{background-position:46% 0%}
-    }
 
     #con3{
         font-family:'Roboto';
         font-weight:100;
-        font-size: 20px;
+        font-size: 30px;
         letter-spacing: 1px;
-          padding-left: 20px;
-          padding-right: 20px;
-          padding-top: 30px;
-          padding-bottom: 20px;
-          color: #190061;
-          text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: #ffffff;
+        text-align: center;
   }
+
+  #text_field{
+    width: calc(160px + 20vmin);
+    height: 40px;
+    background-color: Transparent;
+    font-size: 16px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    cursor: white;
+    color: white;
+    display: inline;
+    animation-play-state: paused;
+    animation: fadeIn 3s linear forwards;
+    -webkit-animation: fadeIn 3s linear forwards;
+  }
+  #text_button{
+    display: inline;
+    width: calc(110px - 2vmin);
+    height: 47px;
+    color: white;
+    border-style: solid;
+    background-color: Transparent;
+    font-size: 16px;
+    border-color: white;
+    border-width: 3px;
+    font-style:bold;
+    animation: fadeIn 3s linear forwards;
+    -webkit-animation: fadeIn 3s linear forwards;
+  }
+  
